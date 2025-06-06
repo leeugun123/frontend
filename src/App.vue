@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <GroundView></GroundView>
+    <GroundView />
   </div>
 </template>
 

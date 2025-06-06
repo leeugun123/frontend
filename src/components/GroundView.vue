@@ -1,7 +1,17 @@
 <template>
-  <div class="ground">I am Ground</div>
+  <div class="ground">
+    <Header />
+    <Memo />
+    <Footer />
+  </div>
 </template>
 
 <script>
-export default {};
+import Header from "./GroundHeader.vue";
+import Footer from "./GroundFooter.vue";
+import Memo from "./GroundMemo.vue";
+
+export default {
+  components: { Header, Footer, Memo },
+};
 </script>
